@@ -128,8 +128,12 @@ body
     {
         width: 300px;
         height: 200px;
-        transform: translateX(250%);
+        transform: translateX(150%);
     }
+    .caixa:nth-of-type(even)    /*TODAS AS CAIXAS PARES VÃO PARA A ESQUERDA, FORA DO ECRA -200*/
+{
+    transform: translateX(-150%);
+}
     .caixa h2
     {
         font-size: 20px;
