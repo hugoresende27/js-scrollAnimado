@@ -2,7 +2,7 @@ const caixas = document.querySelectorAll('.caixa')
 
 window.addEventListener('scroll', checkCaixas)  //com o scroll vai executar a função checkCaixas
 
-//checkCaixas()
+checkCaixas()
 function checkCaixas()
 {
     //console.log(window.innerHeight) //console log da altura da janela

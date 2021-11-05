@@ -120,6 +120,7 @@ body
 {
     body 
     {
+        
         padding: 20px;
     }
     
@@ -127,6 +128,7 @@ body
     {
         width: 200px;
         height: 100px;
+        transform: translateX(250%);
     }
     .caixa h2
     {
